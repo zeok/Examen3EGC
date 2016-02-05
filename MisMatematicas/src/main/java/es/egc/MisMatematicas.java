@@ -14,4 +14,11 @@ public class MisMatematicas
 		log.info("Returning "+a+"/"+b+"="+result);
 		return result;
 	}
+
+	public static int multiplica(int a, int b){
+		int result= a*b;
+		log.info("Returning "+a+"*"+b+"="+result);
+		return result;
+	}
+
 }
